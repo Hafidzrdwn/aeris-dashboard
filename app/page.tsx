@@ -140,10 +140,10 @@ const recentAlerts = [
 ]
 
 const topRooms = [
-  { id: "GKB-101", name: "Lecture Hall A", occupancy: 45, capacity: 60, efficiency: 92, temperature: 23.2 },
-  { id: "GKB-102", name: "Lecture Hall B", occupancy: 32, capacity: 60, efficiency: 78, temperature: 24.1 },
   { id: "GKB-201", name: "Seminar Room 1", occupancy: 15, capacity: 30, efficiency: 95, temperature: 22.8 },
+  { id: "GKB-101", name: "Lecture Hall A", occupancy: 45, capacity: 60, efficiency: 92, temperature: 23.2 },
   { id: "GKB-301", name: "Computer Lab", occupancy: 28, capacity: 40, efficiency: 88, temperature: 21.5 },
+  { id: "GKB-102", name: "Lecture Hall B", occupancy: 32, capacity: 60, efficiency: 78, temperature: 24.1 },
 ]
 
 export default function DashboardPage() {
